@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "title": "EXACT ION 2-700 结构与操作导览",
+  "intro": "先完成说明书支持的外部操作，再通过官方 CAD 与分解图观察内部结构。",
+  "statusLabels": {
+    "verified": "官方资料支持",
+    "structural": "结构观察"
+  },
+  "boundaryNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+  "cadBoundary": "CAD 节点、备件目录条目与实际可拆零件并非一一对应。缺少精确映射时保留原始编号。",
+  "sources": [
+    {
+      "id": "product",
+      "label": "博世官方产品页",
+      "url": "https://www.bosch-professional.com/gb/en/products/exact-ion-2-700-0602494400",
+      "detail": "订单号 0 602 494 400"
+    },
+    {
+      "id": "model",
+      "label": "博世官方 STEP 模型",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o191404v135_Exact_ION_ohne_mit_Akku_STEP.zip",
+      "detail": "2013 年导出；保留原始 CAD 标识；与当前备件版本可能不同"
+    },
+    {
+      "id": "manual",
+      "label": "博世官方使用说明书 · 2025",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o557138v21_160992AB6D_202501.pdf",
+      "detail": "1 609 92A B6D，27.01.2025；简体中文第 231–237 页"
+    },
+    {
+      "id": "parts",
+      "label": "博世官方备件目录",
+      "url": "https://www.boschtoolservice.com/gb/en/boschprof/spareparts/pn-accu-screwdriver-exact-ion-2-700-3602D94400",
+      "detail": "机型 3 602 D94 400，EU，18 V"
+    },
+    {
+      "id": "partsApi",
+      "label": "博世官方备件数据",
+      "url": "https://www.boschtoolservice.com/gb/en/boschprof/spareparts/api/product/explosionDiagram/28519",
+      "detail": "2 张图、40 行目录记录；含重复项目及可选版本"
+    },
+    {
+      "id": "diagram1",
+      "label": "官方分解图 1 · 整机备件",
+      "url": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+      "detail": "图号 1；版次标识 22-06-28"
+    },
+    {
+      "id": "diagram2",
+      "label": "官方分解图 2 · 电子组件版本适配",
+      "url": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+      "detail": "旧版与新版电子组件连接示意；版次标识 03-04-18"
+    }
+  ],
+  "stages": [
+    {
+      "id": "identity",
+      "title": "01 · 核对工具身份",
+      "intro": "先确认订单号、实机型号和所用资料版本。",
+      "checklist": [
+        "确认产品为 EXACT ION 2-700，订单号 0 602 494 400。",
+        "核对铭牌上的十位机型编号；本目录对应 3 602 D94 400。",
+        "将 CAD 原始标识与当前备件号分别查看。"
+      ],
+      "sourceRef": [
+        {
+          "id": "product"
+        },
+        {
+          "id": "parts"
+        },
+        {
+          "id": "model"
+        }
+      ],
+      "status": "verified",
+      "cadNamePrefixes": [],
+      "cadTargetNote": "此阶段没有已验证的 CAD 精确目标，保持整体视图。",
+      "partPositions": [],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已完成核对"
+    },
+    {
+      "id": "battery",
+      "title": "02 · 取下充电电池",
+      "intro": "对工具进行任何操作前，先按说明书取下电池。",
+      "checklist": [
+        "按压电池解锁按钮。",
+        "将电池从工具上拔出，避免过度用力。",
+        "保持电池外壳完整；说明书禁止打开或改装充电电池。"
+      ],
+      "sourceRef": [
+        {
+          "id": "manual",
+          "pages": [
+            232,
+            234
+          ],
+          "englishPages": [
+            18
+          ]
+        }
+      ],
+      "status": "verified",
+      "cadNamePrefixes": [
+        "2607336905_DUMMY"
+      ],
+      "cadTargetNote": "带 LPack 的官方 CAD 新增此简化节点；它与当前目录所列电池备件号不同，不能据此认定同一供货版本。",
+      "partPositions": [
+        "91"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已完成核对"
+    },
+    {
+      "id": "bit",
+      "title": "03 · 取出工具刀头",
+      "intro": "快换夹头释放刀头的操作见说明书插图 B。",
+      "checklist": [
+        "保持充电电池已取下。",
+        "向前抽拉快速夹头的套筒。",
+        "取出工具刀头，然后松开套筒。"
+      ],
+      "sourceRef": [
+        {
+          "id": "manual",
+          "pages": [
+            234,
+            235
+          ],
+          "englishPages": [
+            18
+          ],
+          "figure": "B"
+        }
+      ],
+      "status": "verified",
+      "cadNamePrefixes": [],
+      "cadTargetNote": "官方 CAD 未核实独立刀头实体；不自动映射快换夹头与刀头。",
+      "partPositions": [
+        "813"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已完成核对"
+    },
+    {
+      "id": "marking-ring",
+      "title": "04 · 按需更换记号环",
+      "intro": "记号环用于区分扭矩设置，并阻挡灰尘进入机壳。",
+      "checklist": [
+        "需要换色时，使用薄口螺丝起子、铲刀或同类工具压出记号环。",
+        "使用工具前确保记号环已装回。",
+        "记号环颜色只标识设置；实际扭矩需要测量核验。"
+      ],
+      "sourceRef": [
+        {
+          "id": "manual",
+          "pages": [
+            235
+          ],
+          "englishPages": [
+            19
+          ],
+          "figure": "E"
+        },
+        {
+          "id": "diagram1"
+        }
+      ],
+      "status": "verified",
+      "cadNamePrefixes": [],
+      "cadTargetNote": "CAD 的 3600106006 未与当前位置 890 的备件号建立同号对应，不默认绑定。",
+      "partPositions": [
+        "890"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已完成核对"
+    },
+    {
+      "id": "housing-fasteners",
+      "title": "05 · 对照机壳与紧固件",
+      "intro": "进入结构观察：将官方位置号与 3D 实体逐一对照。",
+      "checklist": [
+        "在图 1 中定位机壳总成 801 与螺钉 80。",
+        "核对目录：位置 80 为 9 枚 Torx 盘头螺钉，规格 3×18。",
+        "记录图示拧紧扭矩 0.8–1.1 Nm；资料未提供拆卸顺序或批头号。"
+      ],
+      "sourceRef": [
+        {
+          "id": "diagram1"
+        },
+        {
+          "id": "partsApi"
+        }
+      ],
+      "status": "structural",
+      "cadNamePrefixes": [
+        "2603490018"
+      ],
+      "cadTargetNote": "仅高亮与螺钉备件号同号的 CAD 简化节点；机壳总成没有已核实的同号 CAD 映射。",
+      "partPositions": [
+        "80",
+        "801"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已阅读并确认"
+    },
+    {
+      "id": "drive",
+      "title": "06 · 观察传动组件",
+      "intro": "利用官方分解图理解电机、行星传动与前端组件的分组。",
+      "checklist": [
+        "对照图中位置 802 电机总成、30 行星传动组件与 40 装配套件。",
+        "继续辨认位置 811 调节环、812 滑动轴承与 813 快换夹头组件。",
+        "位置 899 的 0.1mm 垫片标注为仅在需要时使用。"
+      ],
+      "sourceRef": [
+        {
+          "id": "diagram1"
+        },
+        {
+          "id": "partsApi"
+        }
+      ],
+      "status": "structural",
+      "cadNamePrefixes": [],
+      "cadTargetNote": "现有 CAD 标识与这些当前备件号不一致；只能通过图形对照观察，不宣称精确备件映射。",
+      "partPositions": [
+        "802",
+        "30",
+        "40",
+        "811",
+        "812",
+        "813",
+        "899"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已阅读并确认"
+    },
+    {
+      "id": "switching",
+      "title": "07 · 观察开关与电气组件",
+      "intro": "查看同号节点，并了解电子组件维修的资料要求。",
+      "checklist": [
+        "对照位置 10 开关滑块、62 推杆、53 微动开关。",
+        "辨认指示板、LED、开关及电子模块的目录分组。",
+        "官方图 1 要求在防静电工作区维修；连接器注释只适用于图中标示的位置。"
+      ],
+      "sourceRef": [
+        {
+          "id": "diagram1"
+        },
+        {
+          "id": "partsApi"
+        }
+      ],
+      "status": "structural",
+      "cadNamePrefixes": [
+        "3601099004",
+        "3601923030",
+        "1607502627"
+      ],
+      "cadTargetNote": "前三个号码在 CAD 名称中有同号或同号前缀；骨架和装配容器不等于独立物理零件。",
+      "partPositions": [
+        "10",
+        "62",
+        "53",
+        "52",
+        "54",
+        "50",
+        "805",
+        "806",
+        "807",
+        "808"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已阅读并确认"
+    },
+    {
+      "id": "versions",
+      "title": "08 · 核对电子组件版本",
+      "intro": "图 2 解释旧版、新版组件之间的转接关系。",
+      "checklist": [
+        "分别比较图 2 的旧版与新版接口。",
+        "按图中方向辨认 881 与 882 转接线；不可仅凭外观推定兼容。",
+        "软件设定遵循 2025 说明书：EXACT Configurator 5.2 及以上。"
+      ],
+      "sourceRef": [
+        {
+          "id": "diagram2"
+        },
+        {
+          "id": "manual",
+          "pages": [
+            234
+          ],
+          "englishPages": [
+            18
+          ]
+        }
+      ],
+      "status": "structural",
+      "cadNamePrefixes": [],
+      "cadTargetNote": "转接线备件号没有同号 CAD 节点；此阶段以官方图 2 对照为主。",
+      "partPositions": [
+        "50",
+        "805",
+        "808",
+        "881",
+        "882"
+      ],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已阅读并确认"
+    },
+    {
+      "id": "service-review",
+      "title": "09 · 记录保养与复核要求",
+      "intro": "以说明书的保养周期和扭矩检查要求结束学习。",
+      "checklist": [
+        "保养与维修交由合格专业人员执行。",
+        "传动装置首次运行 150 小时后清洁润滑，此后每 300 小时重复。",
+        "每 100,000 次螺栓连接检查工具损坏、磨损及功能；离合器保养后重新设置并核验扭矩。",
+        "运行时装好记号环，保持工具与通风口清洁。"
+      ],
+      "sourceRef": [
+        {
+          "id": "manual",
+          "pages": [
+            235,
+            236
+          ],
+          "englishPages": [
+            19,
+            20
+          ]
+        }
+      ],
+      "status": "verified",
+      "cadNamePrefixes": [],
+      "cadTargetNote": "此阶段没有已验证的 CAD 精确目标，保持整体视图。",
+      "partPositions": [],
+      "animationNote": "内部零件分离动画仅用于观察结构关系，未经验证为维修车间的实际拆卸顺序。",
+      "completeLabel": "已完成核对"
+    }
+  ]
+}

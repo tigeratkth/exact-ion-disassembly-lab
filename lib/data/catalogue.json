@@ -1,0 +1,1627 @@
+{
+  "schemaVersion": 1,
+  "title": "EXACT ION 2-700 官方备件目录",
+  "model": "EXACT ION 2-700",
+  "orderNumber": "0602494400",
+  "toolType": "3602D94400",
+  "counts": {
+    "uniquePartNumbers": 36,
+    "catalogueRows": 40,
+    "uniquePositionNumbers": 29,
+    "physicalComponentCount": null
+  },
+  "countNote": "36 个唯一备件号，包含总成、附件和不同版本；不等于整机的 36 个物理零件。",
+  "categories": {
+    "core": "机内零件与总成",
+    "accessory": "附件",
+    "variant": "可选版本",
+    "adapter": "版本转接线"
+  },
+  "sources": [
+    {
+      "id": "product",
+      "label": "博世官方产品页",
+      "url": "https://www.bosch-professional.com/gb/en/products/exact-ion-2-700-0602494400",
+      "detail": "订单号 0 602 494 400"
+    },
+    {
+      "id": "model",
+      "label": "博世官方 STEP 模型",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o191404v135_Exact_ION_ohne_mit_Akku_STEP.zip",
+      "detail": "2013 年导出；保留原始 CAD 标识；与当前备件版本可能不同"
+    },
+    {
+      "id": "manual",
+      "label": "博世官方使用说明书 · 2025",
+      "url": "https://www.bosch-professional.com/binary/manualsmedia/o557138v21_160992AB6D_202501.pdf",
+      "detail": "1 609 92A B6D，27.01.2025；简体中文第 231–237 页"
+    },
+    {
+      "id": "parts",
+      "label": "博世官方备件目录",
+      "url": "https://www.boschtoolservice.com/gb/en/boschprof/spareparts/pn-accu-screwdriver-exact-ion-2-700-3602D94400",
+      "detail": "机型 3 602 D94 400，EU，18 V"
+    },
+    {
+      "id": "partsApi",
+      "label": "博世官方备件数据",
+      "url": "https://www.boschtoolservice.com/gb/en/boschprof/spareparts/api/product/explosionDiagram/28519",
+      "detail": "2 张图、40 行目录记录；含重复项目及可选版本"
+    },
+    {
+      "id": "diagram1",
+      "label": "官方分解图 1 · 整机备件",
+      "url": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+      "detail": "图号 1；版次标识 22-06-28"
+    },
+    {
+      "id": "diagram2",
+      "label": "官方分解图 2 · 电子组件版本适配",
+      "url": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+      "detail": "旧版与新版电子组件连接示意；版次标识 03-04-18"
+    }
+  ],
+  "parts": [
+    {
+      "id": "3601099004",
+      "partNumber": "3601099004",
+      "formattedPartNumber": "3 601 099 004",
+      "nameZh": "开关滑块",
+      "nameEn": "Switch Slide",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "10"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "10",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 409,
+            "xMax": 423,
+            "yMin": 635,
+            "yMax": 647
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "exact-name",
+        "exactNames": [
+          "3601099004"
+        ],
+        "namePrefixes": [
+          "3601099004"
+        ],
+        "matchingNames": [
+          "3601099004"
+        ],
+        "note": "仅号码对应；几何精度、供货版本及物理可拆分性仍需核对。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607030488",
+      "partNumber": "3607030488",
+      "formattedPartNumber": "3 607 030 488",
+      "nameZh": "行星齿轮传动组件",
+      "nameEn": "Planetary Gear Train",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "30"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "30",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 335,
+            "xMax": 351,
+            "yMin": 269,
+            "yMax": 281
+          }
+        },
+        {
+          "figure": 2,
+          "position": "30",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+          "calloutBox": {
+            "xMin": 335,
+            "xMax": 351,
+            "yMin": 269,
+            "yMax": 281
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "说明书规定首次运行 150 小时后清洁并润滑传动装置，以后每 300 小时重复；由合格专业人员执行。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1",
+        "diagram2"
+      ]
+    },
+    {
+      "id": "3607031546",
+      "partNumber": "3607031546",
+      "formattedPartNumber": "3 607 031 546",
+      "nameZh": "装配套件",
+      "nameEn": "Assembly kit",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "40"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "40",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 472,
+            "xMax": 487,
+            "yMin": 145,
+            "yMax": 157
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "官方名称仅为装配套件；分解图显示套件分组，未提供每个内部实体的独立备件号。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1600A036XZ",
+      "partNumber": "1600A036XZ",
+      "formattedPartNumber": "1 600 A03 6XZ",
+      "nameZh": "电子模块",
+      "nameEn": "Electronic Module",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "50"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "50",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 109,
+            "xMax": 124,
+            "yMin": 599,
+            "yMax": 611
+          }
+        },
+        {
+          "figure": 2,
+          "position": "50",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+          "calloutBox": {
+            "xMin": 556,
+            "xMax": 572,
+            "yMin": 235,
+            "yMax": 247
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1",
+        "diagram2"
+      ]
+    },
+    {
+      "id": "1607233516",
+      "partNumber": "1607233516",
+      "formattedPartNumber": "1 607 233 516",
+      "nameZh": "指示板",
+      "nameEn": "Indicator Plate",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "52"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "52",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 80,
+            "xMax": 95,
+            "yMin": 162,
+            "yMax": 174
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1607502627",
+      "partNumber": "1607502627",
+      "formattedPartNumber": "1 607 502 627",
+      "nameZh": "微动开关",
+      "nameEn": "Microswitch",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "53"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "53",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 472,
+            "xMax": 487,
+            "yMin": 647,
+            "yMax": 660
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "same-number-prefix",
+        "exactNames": [],
+        "namePrefixes": [
+          "1607502627"
+        ],
+        "matchingNames": [
+          "1607502627_SKEL0001",
+          "1607502627_ASM"
+        ],
+        "note": "仅号码对应；几何精度、供货版本及物理可拆分性仍需核对。"
+      },
+      "serviceNotes": [
+        "CAD 名称含同一号码；部分节点为骨架或装配容器，不代表独立可拆实体。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1607502832",
+      "partNumber": "1607502832",
+      "formattedPartNumber": "1 607 502 832",
+      "nameZh": "LED 发光二极管",
+      "nameEn": "Light-Emitting-Diode",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "54"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "54",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 557,
+            "xMax": 573,
+            "yMin": 647,
+            "yMax": 660
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1609280477",
+      "partNumber": "1609280477",
+      "formattedPartNumber": "1 609 280 477",
+      "nameZh": "压缩弹簧",
+      "nameEn": "Compression Spring",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "55"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "55",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 101,
+            "xMax": 116,
+            "yMin": 653,
+            "yMax": 665
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3601923030",
+      "partNumber": "3601923030",
+      "formattedPartNumber": "3 601 923 030",
+      "nameZh": "推杆",
+      "nameEn": "Pusher",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "62"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "62",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1075,
+            "xMax": 1091,
+            "yMin": 104,
+            "yMax": 116
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "exact-name",
+        "exactNames": [
+          "3601923030"
+        ],
+        "namePrefixes": [
+          "3601923030"
+        ],
+        "matchingNames": [
+          "3601923030"
+        ],
+        "note": "仅号码对应；几何精度、供货版本及物理可拆分性仍需核对。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "2603490018",
+      "partNumber": "2603490018",
+      "formattedPartNumber": "2 603 490 018",
+      "nameZh": "Torx 盘头螺钉 · 3×18",
+      "nameEn": "Torx Oval-Head Screw",
+      "category": "core",
+      "quantity": 9,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "3X18",
+      "positions": [
+        "80"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "80",
+          "quantity": 9,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 645,
+            "xMax": 661,
+            "yMin": 171,
+            "yMax": 183
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "same-number-prefix",
+        "exactNames": [],
+        "namePrefixes": [
+          "2603490018"
+        ],
+        "matchingNames": [
+          "2603490018_DUMMY_01"
+        ],
+        "note": "仅号码对应；几何精度、供货版本及物理可拆分性仍需核对。"
+      },
+      "serviceNotes": [
+        "目录数量为 9，规格 3×18。",
+        "图 1 标注位置 80 的拧紧扭矩为 0.8–1.1 Nm；资料未给出拆卸先后顺序或 Torx 批头号。",
+        "CAD 的 DUMMY 节点是简化表示。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1607A350MA",
+      "partNumber": "1607A350MA",
+      "formattedPartNumber": "1 607 A35 0MA",
+      "nameZh": "电池包 · 18V 2.0Ah",
+      "nameEn": "Battery Pack",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "GBA 18V 2.0AH",
+      "positions": [
+        "91"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "91",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 753,
+            "xMax": 766,
+            "yMin": 632,
+            "yMax": 644
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1617S020T1",
+      "partNumber": "1617S020T1",
+      "formattedPartNumber": "1 617 S02 0T1",
+      "nameZh": "电池包 · 18V 4.0Ah",
+      "nameEn": "Battery Pack",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "GBA 18V 4.0Ah M-C UNI",
+      "positions": [
+        "91"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "91",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 753,
+            "xMax": 766,
+            "yMin": 632,
+            "yMax": 644
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "2607225321",
+      "partNumber": "2607225321",
+      "formattedPartNumber": "2 607 225 321",
+      "nameZh": "充电器 · EU 版",
+      "nameEn": "Charger",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "EU 230/14,4-18V, 30 40 S",
+      "positions": [
+        "653"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "653",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 902,
+            "xMax": 924,
+            "yMin": 632,
+            "yMax": 644
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "2607225923",
+      "partNumber": "2607225923",
+      "formattedPartNumber": "2 607 225 923",
+      "nameZh": "充电器 · GB 版",
+      "nameEn": "Charger",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "GB 230/10,8-18V, 30 42 S",
+      "positions": [
+        "653"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "653",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 902,
+            "xMax": 924,
+            "yMin": 632,
+            "yMax": 644
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607950027",
+      "partNumber": "3607950027",
+      "formattedPartNumber": "3 607 950 027",
+      "nameZh": "调整螺丝起子",
+      "nameEn": "Screwdriver",
+      "category": "accessory",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "657"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "657",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 656,
+            "xMax": 679,
+            "yMin": 574,
+            "yMax": 586
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "说明书要求使用随附调整工具设定扭矩，并通过试验及扭矩测量核验结果。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3601923024",
+      "partNumber": "3601923024",
+      "formattedPartNumber": "3 601 923 024",
+      "nameZh": "悬挂卡夹",
+      "nameEn": "Suspension Loop",
+      "category": "accessory",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "659"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "659",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1039,
+            "xMax": 1061,
+            "yMin": 634,
+            "yMax": 646
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607031774",
+      "partNumber": "3607031774",
+      "formattedPartNumber": "3 607 031 774",
+      "nameZh": "机壳总成",
+      "nameEn": "Housing Assembly",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "801"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "801",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 766,
+            "xMax": 787,
+            "yMin": 119,
+            "yMax": 131
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "作为机壳总成列出；与 CAD 中机壳实体标识没有已验证的同号对应关系。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607031862",
+      "partNumber": "3607031862",
+      "formattedPartNumber": "3 607 031 862",
+      "nameZh": "电机总成",
+      "nameEn": "Motor assembly",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "802"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "802",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 220,
+            "xMax": 242,
+            "yMin": 203,
+            "yMax": 215
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607031886",
+      "partNumber": "3607031886",
+      "formattedPartNumber": "3 607 031 886",
+      "nameZh": "电子模块 · 2-700",
+      "nameEn": "Electronics Module",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "805"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "805",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 67,
+            "xMax": 90,
+            "yMin": 599,
+            "yMax": 611
+          }
+        },
+        {
+          "figure": 2,
+          "position": "805",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+          "calloutBox": {
+            "xMin": 510,
+            "xMax": 532,
+            "yMin": 731,
+            "yMax": 743
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1",
+        "diagram2"
+      ]
+    },
+    {
+      "id": "3607031887",
+      "partNumber": "3607031887",
+      "formattedPartNumber": "3 607 031 887",
+      "nameZh": "驱动电子组件 · 2-700",
+      "nameEn": "drive electronics",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "806"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "806",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 87,
+            "xMax": 110,
+            "yMin": 526,
+            "yMax": 539
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607031762",
+      "partNumber": "3607031762",
+      "formattedPartNumber": "3 607 031 762",
+      "nameZh": "开关元件",
+      "nameEn": "Switching Element",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "807"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "807",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 510,
+            "xMax": 532,
+            "yMin": 635,
+            "yMax": 647
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607031884",
+      "partNumber": "3607031884",
+      "formattedPartNumber": "3 607 031 884",
+      "nameZh": "开关",
+      "nameEn": "Switch",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "808"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "808",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 160,
+            "xMax": 182,
+            "yMin": 503,
+            "yMax": 515
+          }
+        },
+        {
+          "figure": 2,
+          "position": "808",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+          "calloutBox": {
+            "xMin": 655,
+            "xMax": 677,
+            "yMin": 147,
+            "yMax": 160
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1",
+        "diagram2"
+      ]
+    },
+    {
+      "id": "16070312C5",
+      "partNumber": "16070312C5",
+      "formattedPartNumber": "1 607 031 2C5",
+      "nameZh": "铭牌套件",
+      "nameEn": "Set Of Plates",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "810"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "810",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 679,
+            "xMax": 701,
+            "yMin": 313,
+            "yMax": 325
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1600A007U6",
+      "partNumber": "1600A007U6",
+      "formattedPartNumber": "1 600 A00 7U6",
+      "nameZh": "调节环",
+      "nameEn": "Setting Ring",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "811"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "811",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 424,
+            "xMax": 445,
+            "yMin": 166,
+            "yMax": 179
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1600A007U7",
+      "partNumber": "1600A007U7",
+      "formattedPartNumber": "1 600 A00 7U7",
+      "nameZh": "滑动轴承",
+      "nameEn": "Plain bearing",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "812"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "812",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 486,
+            "xMax": 509,
+            "yMin": 203,
+            "yMax": 215
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1600A007U5",
+      "partNumber": "1600A007U5",
+      "formattedPartNumber": "1 600 A00 7U5",
+      "nameZh": "快换夹头组件",
+      "nameEn": "Quick-Change Collet Chuck",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "813"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "813",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 586,
+            "xMax": 609,
+            "yMin": 261,
+            "yMax": 273
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3607031931",
+      "partNumber": "3607031931",
+      "formattedPartNumber": "3 607 031 931",
+      "nameZh": "配置软件 U 盘",
+      "nameEn": "usb stick",
+      "category": "accessory",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "820"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "820",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 949,
+            "xMax": 971,
+            "yMin": 475,
+            "yMax": 487
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "2025 说明书要求 BOSCH EXACT Configurator 5.2 及以上版本；旧图 2 中的 4.1 属历史标注。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1607000CM1",
+      "partNumber": "1607000CM1",
+      "formattedPartNumber": "1 607 000 CM1",
+      "nameZh": "转接线 · 881",
+      "nameEn": "Adapter Line",
+      "category": "adapter",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "881"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 2,
+          "position": "881",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+          "calloutBox": {
+            "xMin": 677,
+            "xMax": 700,
+            "yMin": 666,
+            "yMax": 679
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "图 2 展示新版主电子组件与旧版位置 805 电子模块之间的适配；须核对实物接口版本。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram2"
+      ]
+    },
+    {
+      "id": "1607000CM0",
+      "partNumber": "1607000CM0",
+      "formattedPartNumber": "1 607 000 CM0",
+      "nameZh": "转接线 · 882",
+      "nameEn": "Adapter Line",
+      "category": "adapter",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "",
+      "positions": [
+        "882"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 2,
+          "position": "882",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.002.gif",
+          "calloutBox": {
+            "xMin": 154,
+            "xMax": 176,
+            "yMin": 666,
+            "yMax": 679
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "图 2 展示旧版主电子组件与新版位置 805 电子模块之间的适配；须核对实物接口版本。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram2"
+      ]
+    },
+    {
+      "id": "3600106010",
+      "partNumber": "3600106010",
+      "formattedPartNumber": "3 600 106 010",
+      "nameZh": "记号环套件 · 黑色",
+      "nameEn": "Parts Set",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "5 PCE., BLACK",
+      "positions": [
+        "890"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "890",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1085,
+            "xMax": 1107,
+            "yMin": 302,
+            "yMax": 314
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。",
+        "目录列为 5 件套；图 1 所示位置 890 为记号环。颜色不代表新的内部拆卸步骤。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3600106011",
+      "partNumber": "3600106011",
+      "formattedPartNumber": "3 600 106 011",
+      "nameZh": "记号环套件 · 红色",
+      "nameEn": "Parts Set",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "5 PCE., RED",
+      "positions": [
+        "890"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "890",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1085,
+            "xMax": 1107,
+            "yMin": 302,
+            "yMax": 314
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。",
+        "目录列为 5 件套；图 1 所示位置 890 为记号环。颜色不代表新的内部拆卸步骤。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3600106012",
+      "partNumber": "3600106012",
+      "formattedPartNumber": "3 600 106 012",
+      "nameZh": "记号环套件 · 浅蓝色",
+      "nameEn": "Parts Set",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "5 PCE,. LIGHT BLUE",
+      "positions": [
+        "890"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "890",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1085,
+            "xMax": 1107,
+            "yMin": 302,
+            "yMax": 314
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。",
+        "目录列为 5 件套；图 1 所示位置 890 为记号环。颜色不代表新的内部拆卸步骤。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3600106013",
+      "partNumber": "3600106013",
+      "formattedPartNumber": "3 600 106 013",
+      "nameZh": "记号环套件 · 浅绿色",
+      "nameEn": "Parts Set",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "5 PCE,. LIGHT GREEN",
+      "positions": [
+        "890"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "890",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1085,
+            "xMax": 1107,
+            "yMin": 302,
+            "yMax": 314
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。",
+        "目录列为 5 件套；图 1 所示位置 890 为记号环。颜色不代表新的内部拆卸步骤。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3600106014",
+      "partNumber": "3600106014",
+      "formattedPartNumber": "3 600 106 014",
+      "nameZh": "记号环套件 · 橙色",
+      "nameEn": "Parts Set",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "5 PCE., ORANGE",
+      "positions": [
+        "890"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "890",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1085,
+            "xMax": 1107,
+            "yMin": 302,
+            "yMax": 314
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。",
+        "目录列为 5 件套；图 1 所示位置 890 为记号环。颜色不代表新的内部拆卸步骤。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "3600106015",
+      "partNumber": "3600106015",
+      "formattedPartNumber": "3 600 106 015",
+      "nameZh": "记号环套件 · 颜色未注明",
+      "nameEn": "Parts Set",
+      "category": "variant",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "5 PIECE",
+      "positions": [
+        "890"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "890",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 1085,
+            "xMax": 1107,
+            "yMin": 302,
+            "yMax": 314
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "此项为可选版本；与同位置号的其他版本分开列示，不表示同时装在一台工具上。",
+        "目录列为 5 件套；图 1 所示位置 890 为记号环。颜色不代表新的内部拆卸步骤。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    },
+    {
+      "id": "1610101621",
+      "partNumber": "1610101621",
+      "formattedPartNumber": "1 610 101 621",
+      "nameZh": "调整垫片 · 0.1mm",
+      "nameEn": "Shim",
+      "category": "core",
+      "quantity": 1,
+      "quantityMeaning": "官方目录单行数量；套件、附件和版本选项不能相加作为整机实体总数",
+      "detail": "0,1 MM THICK",
+      "positions": [
+        "899"
+      ],
+      "illustrationOccurrences": [
+        {
+          "figure": 1,
+          "position": "899",
+          "quantity": 1,
+          "imageUrl": "https://www.boschtoolservice.com/resource/public/images/3602D944.001.gif",
+          "calloutBox": {
+            "xMin": 369,
+            "xMax": 391,
+            "yMin": 290,
+            "yMax": 302
+          }
+        }
+      ],
+      "cadExactMatchHints": {
+        "status": "unmatched",
+        "exactNames": [],
+        "namePrefixes": [],
+        "matchingNames": [],
+        "note": "未发现与官方备件号同号的 CAD 节点；保留原 CAD 标识，不自动映射。"
+      },
+      "serviceNotes": [
+        "图 1 注明仅在需要时使用，不能据此认定每台实机均安装。"
+      ],
+      "sourceRef": [
+        "partsApi",
+        "diagram1"
+      ]
+    }
+  ]
+}
